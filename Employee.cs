@@ -33,7 +33,7 @@ namespace PadawansTask13
 
         public string InfoAboutEmployee()
         {
-            return "Фамилия: { Employee.surname}, Возраст: { Employee.age}";
+            return $"Surname: {surname}, Age: {age}";
         }
     }
 }
